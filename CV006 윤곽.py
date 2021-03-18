@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-src=cv2.imread("./image/Mahjong1.jpg",flags=cv2.IMREAD_COLOR)
+src=cv2.imread("./image/Mahjong4.jpg",flags=cv2.IMREAD_COLOR)
 cv2.imshow("src",src)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
